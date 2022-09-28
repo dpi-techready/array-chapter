@@ -12,6 +12,6 @@ user_string = gets.chomp
 
 user_numbers = user_string.split
 
-# second_to_last = user_numbers[1..-1]
+second_to_last = user_numbers.at(-2)
 
-# p second_to_last
+p second_to_last.to_f ** 2
